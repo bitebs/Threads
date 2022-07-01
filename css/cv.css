@@ -1,0 +1,27 @@
+ p{
+          font-family: Source Sans Pro;
+          font-size: 20px;
+          line-height: 1;  
+        }
+        .name{
+           font-size: 50px;
+           font-weight: 700;
+        }
+        .position{
+            font-family: Ubuntu;
+           font-size: 30px;
+           font-weight: 300;
+        }
+
+        .location, .mail, .phone{
+            font-family: Roboto;
+           font-size: 20px;
+           font-weight: 300;
+        }
+
+        a:link{
+            color:black;
+        }
+        a{
+            color:black;
+        }

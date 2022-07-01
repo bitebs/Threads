@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            background-color: cornsilk;
+            border: 1px solid;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+        .item{
+            background-color: cyan;
+            padding: 8px;
+            margin: 8px;
+            width: 40%;
+        }
+        .main{
+            background-color: darkgoldenrod;
+            height: 900px;
+            
+            
+        }
+        .footer{
+            background-color: darkgreen;
+            display: flex;
+        }
+
+        .square{
+            background-color: darkmagenta;
+            width: 100px;
+            height: 100px;
+            margin: 8px;
+            color: green;
+            text-align: center;
+            line-height: 90px;
+        }
+
+        .vert{
+            display:flex;
+            flex-direction: column;
+        }
+        .hor{
+            display:flex;
+            flex-direction: row;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item4</div>
+    </div>
+    <div class="main">
+        <div class="vert">
+           <div class="square">Square1</div>
+        <div class="square">Square2</div> 
+        </div>
+        <div class="hor">
+            <div class="square">Square3</div>
+            <div class="square">Square4</div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>
+</html>

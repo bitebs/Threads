@@ -1,0 +1,62 @@
+div{
+        width: 30%;
+        height: 50px;
+        margin: 10px;
+        text-align: center;
+        line-height: 50px;
+        }
+
+        .static{
+            position: static;
+            background-color: coral;
+            left: 100px;
+        }
+
+
+        .fixed{
+            position: fixed;
+            background-color: rgb(73, 65, 62);
+            right: 0;
+            bottom: 0;
+            color:cornsilk
+            /*left: 100px;
+            top: 50px;
+            */
+        }
+
+
+        .absolute{
+            position: absolute;
+            background-color: rgb(73, 65, 62);
+            left: 0px;
+            bottom: 50px;
+            
+            
+        }
+
+
+        .relative{
+            position: relative;
+            background-color: rgb(73, 65, 62);
+            left: 50px;
+            top: 30px;
+            
+            
+        }
+
+        .sticky{
+            position: sticky;
+            background-color: rgb(53, 110, 51);
+            left: 10px;
+            top: 20px;
+            
+            
+        }
+
+        table{
+            width:200%;
+        }
+
+        td{
+            width: 30%;
+        }
